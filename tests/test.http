@@ -2,7 +2,7 @@ GET http://localhost:8080/events
 
 ###
 
-GET http://localhost:8080/events/bd5eac7f-f2c7-49d5-8789-e59c0a107b12
+GET http://localhost:8080/events/ae1a0f16-192b-49e5-9cf9-2591621c5b0e
 
 ###
 
@@ -28,8 +28,8 @@ POST http://localhost:8080/checkout HTTP/1.1
 Content-Type: application/json
 
 {
-    "event_id": "2f8c9dcb-56ea-4e9b-a1c6-5fe711c47416",
-    "spots": ["A1"],
+    "event_id": "ae1a0f16-192b-49e5-9cf9-2591621c5b0e",
+    "spots": ["B1"],
     "ticket_type": "full",
     "card_hash": "example_card_hash",
     "email": "user@example.com"
